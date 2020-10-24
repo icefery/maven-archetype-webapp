@@ -6,7 +6,7 @@
 mvn clean install
 ```
 
-**在本地仓库更新（生成）`archetype-catalog.xml`**
+**更新本地仓库的`archetype-catalog.xml`**
 
 ```shell
 mvn archetype:update-local-catalog
