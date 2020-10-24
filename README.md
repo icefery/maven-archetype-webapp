@@ -12,7 +12,7 @@ mvn clean install
 mvn archetype:update-local-catalog
 ```
 
-**通过原型创建项目**
+**创建项目**
 
 ```shell
 mvn archetype:generate -D interactiveMode=false \
