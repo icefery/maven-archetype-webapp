@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archetype-descriptor name="maven-archetype-webapp">
+
   <fileSets>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/java</directory>
@@ -11,4 +12,11 @@
       <directory>src/main/webapp</directory>
     </fileSet>
   </fileSets>
+
+  <requiredProperties>
+    <requiredProperty key="package">
+      <defaultValue>${groupId}.artifactid</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
+
 </archetype-descriptor>
